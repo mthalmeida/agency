@@ -1,21 +1,66 @@
 import React from "react";
 import "./Header.css";
-import "./Script.js";
 
 export default class Header extends React.Component {
   render() {
+    const navbarStyle = {
+      backgroundColor: "#f1f7ef",
+      padding: "5px",
+      paddingBottom: "10px",
+    };
+
+    const menuItemStyle = {
+      marginRight: "15px",
+      fontSize: "18px",
+    };
+
     return (
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar fixed-top" style={navbarStyle}>
+        <div className="container-fluid d-flex justify-content-between align-items-center">
+          <a className="navbar-brand" href="/Inicio">
             <img
               src="https://raw.githubusercontent.com/mthalmeida/agency/main/src/components/Images/texto-sem-fundo.png"
               alt="Logo"
               width="250"
               height="auto"
-              class="d-inline-block align-text-top"
+              className="align-text-top"
             />
           </a>
+          <ul className="navbar-nav d-flex flex-row">
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="/Contato"
+                style={{
+                  ...menuItemStyle,
+                }}
+              >
+                Contato
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="/Servicos"
+                style={{
+                  ...menuItemStyle,
+                }}
+              >
+                Serviços
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="/Sobre"
+                style={{
+                  ...menuItemStyle,
+                }}
+              >
+                Sobre
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     );
