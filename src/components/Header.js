@@ -9,7 +9,7 @@ export default class Header extends React.Component {
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-              src="https://raw.githubusercontent.com/mthalmeida/agency/main/src/components/Images/logo-branca3.png"
+              src="https://raw.githubusercontent.com/mthalmeida/agency/main/src/components/Images/texto-sem-fundo.png"
               alt="Logo"
               width="250"
               height="auto"
