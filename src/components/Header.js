@@ -7,12 +7,12 @@ export default class Header extends React.Component {
     return (
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="Inicio">
+          <a class="navbar-brand" href="#">
             <img
-              src="https://raw.githubusercontent.com/mthalmeida/agency/main/src/components/Images/logo-branca.png"
+              src="https://raw.githubusercontent.com/mthalmeida/agency/main/src/components/Images/logo-branca2.png"
               alt="Logo"
-              width="3000"
-              height="2400"
+              width="30"
+              height="24"
               class="d-inline-block align-text-top"
             />
           </a>
