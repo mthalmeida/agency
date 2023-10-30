@@ -30,18 +30,19 @@ export default class Header extends React.Component {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="/Contato"
+                href="#sobre"
                 style={{
                   ...menuItemStyle,
                 }}
               >
-                Contato
+                Sobre
               </a>
             </li>
+
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="/Servicos"
+                href="#servicos"
                 style={{
                   ...menuItemStyle,
                 }}
@@ -49,15 +50,16 @@ export default class Header extends React.Component {
                 Serviços
               </a>
             </li>
+
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="/Sobre"
+                href="#contato"
                 style={{
                   ...menuItemStyle,
                 }}
               >
-                Sobre
+                Contato
               </a>
             </li>
           </ul>
