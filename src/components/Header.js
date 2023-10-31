@@ -17,7 +17,7 @@ export default class Header extends React.Component {
     return (
       <nav className="navbar fixed-top" style={navbarStyle}>
         <div className="container-fluid d-flex justify-content-between align-items-center">
-          <a className="navbar-brand" href="/Inicio">
+          <a className="navbar-brand" href="#inicio">
             <img
               src="https://raw.githubusercontent.com/mthalmeida/agency/main/src/components/Images/texto-sem-fundo.png"
               alt="Logo"
